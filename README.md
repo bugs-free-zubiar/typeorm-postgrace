@@ -1,3 +1,10 @@
+# Modules 
+### modules are like a department where will be a relavent work. as like user module where user will be authenticate can register. can do anything user related.  
+
+### service module inside the service module we can provide anything service relavent things. as like a car service book service. 
+
+
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>

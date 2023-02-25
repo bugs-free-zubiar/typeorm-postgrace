@@ -7,6 +7,11 @@
 # Controllers
 ### Controllers handle http request and makes connection with client and server using get / delete / put / post stuff. we can say it each route as deifined a mathod in controller.
 
+
+
+# Provider
+### Provider is a typescript class that can be injected or we can use it in any services , controller or any other providers.
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>

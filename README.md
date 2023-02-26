@@ -12,6 +12,35 @@
 # Provider
 ### Provider is a typescript class that can be injected or we can use it in any services , controller or any other providers.
 
+
+
+# Type ORM Sime simple entites create
+### First need simple model  
+### Example: 
+export class Photo {
+    id: number
+    name: string
+    description: string
+    filename: string
+    views: number
+    isPublished: boolean
+}
+
+
+
+### Second Create Entites
+import { Entity } from "typeorm"
+
+@Entity()
+export class Photo {
+    id: number
+    name: string
+    description: string
+    filename: string
+    views: number
+    isPublished: boolean
+}
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>
